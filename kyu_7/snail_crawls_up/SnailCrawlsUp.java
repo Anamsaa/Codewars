@@ -1,3 +1,5 @@
+package kyu_7.snail_crawls_up;
+// https://www.codewars.com/kata/5b93fecd8463745630001d05
 // The snail crawls up the column. During the day it crawls up some distance. During the night she sleeps, so she slides down for some distance (less than crawls up during the day).
 
 // Your function takes three arguments:
@@ -27,5 +29,4 @@ public class SnailCrawlsUp {
       // número total de días: column / (day - nigth) 
       return totalDays; 
     } 
-  
 }
